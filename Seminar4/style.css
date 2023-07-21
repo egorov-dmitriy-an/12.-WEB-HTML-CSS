@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Gilroy-SemiBold,
+        sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo_img {
+    padding-top: 40px;
+}
+
+.logo__text {
+    padding-top: 45px;
+    margin-left: 14px;
+}
+
+.h1__logo {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p__logo {
+    color: #F25822;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav {
+    padding-top: 51px;
+}
+
+.link__home {
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link__menu {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 35px;
+}
+
+.top__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__info {
+    padding-top: 84px;
+}
+
+.top__img {
+    padding-top: 84px;
+}
+
+.h1__text {
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p__text {
+    margin-top: 17px;
+    Width: 466px;
+    Height: 48px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_buttons {
+    padding-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    width: 302px;
+}
+
+.but__1 {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.but__2 {
+    border-style: none;
+    background: none;
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__logo {
+    padding-top: 259px;
+    display: flex;
+    justify-content: space-between;
+}
